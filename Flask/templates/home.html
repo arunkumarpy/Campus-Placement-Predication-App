@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="../static/img/profile_details.svg" alt="" width="300" height="400">
+        </div>
+        <div class="content">
+            <form action="/predict" method="post">
+                <h2>Please Enter Your Details</h2>
+                <br>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="age" placeholder="Age">
+                    <p>Gender</p>
+                    <input type="radio" name="gender" value="0">Male
+                    <input type="radio" name="gender" value="1">Female
+                    <p>Stream</p>
+                    <input type="radio" name="stream" value="0">Computer Science <br>
+                    <input type="radio" name="stream" value="1">Information Technology <br>
+                    <input type="radio" name="stream" value="2">Electronics And Communication <br>
+                    <input type="radio" name="stream" value="3">Mechanical 
+                    <input type="radio" name="stream" value="4">Electrical 
+                    <input type="radio" name="stream" value="5">Civil  <br><br>
+                    <input type="text" name="intern" placeholder="Internships">
+                    <input type="text" name="cgpa" placeholder="CGPA"> <br>
+                    <p>History of Backlogs</p>
+                    <input type="radio" name="backlogs" value="0">Yes
+                    <input type="radio" name="backlogs" value="1">No <br><br>
+                    <input type="submit" class="btn" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

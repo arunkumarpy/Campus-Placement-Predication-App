@@ -1,0 +1,73 @@
+*{
+    font-weight: bold;
+   font-family: 'Mukta Malar', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+h1,h2,h3{
+    color: #F50057;
+}
+.content{
+    display: flex;
+}
+.btn{
+    background-color: #F50057;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: .5rem 2rem;
+}
+
+input{
+    padding: .3rem 1rem;
+    outline: none;
+    border: none;
+    border: 2px solid #F50057;
+}
+
+input:hover{
+    outline: none;
+    border: 2px solid #F50057;
+}
+
+.img1{
+    width: 450px;
+    height: 350px;
+}
+
+.index{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: .1rem .1rem;
+    border-radius: 50%;
+    border: 3px solid #F50057;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type="radio"]:checked {
+    background-color: #F50057;
+}
+  
+  input[type="radio"]:hover {
+    border-color: #F50057;
+}

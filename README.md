@@ -8,6 +8,12 @@ This is a web application that predicts the likelihood of a student being campus
 ![Screenshot (29)](https://user-images.githubusercontent.com/128018866/231348781-096a3d29-c9c4-4d61-bb01-be18974833ee.png)
 
 
+
+
+https://user-images.githubusercontent.com/128018866/231349248-43ec0abd-3216-4558-a0d5-13a56841e80a.mp4
+
+
+
 ## Features
 - User-friendly web interface for inputting academic and personal profile data
 - Predictive model based on historical campus placement data
